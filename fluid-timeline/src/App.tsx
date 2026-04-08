@@ -1,9 +1,6 @@
 import { Header } from '@/components/Header';
-import { useStore } from '@/store/useStore';
 
 export default function App() {
-  const { trip } = useStore();
-
   return (
     <div className="min-h-screen bg-bg text-text flex flex-col">
       <Header />
